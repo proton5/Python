@@ -1,1 +1,8 @@
 print('Hello World')
+print('What is your name?')
+theName = input()
+print('It is good to meet you ' + theName)
+print('The length of your name is ' + str(len(theName)) + '.')
+print('How old are you?')
+theAge = input()
+print('You will be ' + str(int(theAge) + 1)  + ' in a year.')
