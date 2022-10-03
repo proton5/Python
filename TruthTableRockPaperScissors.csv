@@ -1,0 +1,13 @@
+Rock,1,
+Paper,2,
+Scissors,3,
+player,computer,
+r,r,tie
+r,p,loss
+r,s,win
+p,r,win
+p,p,tie
+p,s,loss
+s,r,loss
+s,p,win
+s,s,tie
