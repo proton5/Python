@@ -60,6 +60,7 @@ def TakeATurn():
     currentTurn = input()
     if (currentTurn == 'h'):
         displayHelp()
+        TakeATurn()
     elif (currentTurn == 'tl'):
         if (tictactoeBoard["topLeft"] == ' '):
             tictactoeBoard["topLeft"] = 'X'
